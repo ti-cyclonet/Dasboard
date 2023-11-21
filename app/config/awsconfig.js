@@ -24,25 +24,25 @@ export const userPoolId = "us-east-1_qQDKbmJzm"; //process.env.USER_POOL_ID_DEV;
 //CZ2
 
 export const awsconfig = {
-    region: "us-east-2", //process.env.AWS_REGION, us-east-1
-    UserPoolId:"us-east-2_Ybp2riSOq", //us-east-1_Y2C9cd5d3
+    region: "us-east-1", //process.env.AWS_REGION, us-east-1
+    UserPoolId:"us-east-1_Y2C9cd5d3", //us-east-1_Y2C9cd5d3
     credentials: {
-        accessKeyId:"robesistemasftp-at-302406086980", //process.env.AWS_ACCESS_KEY_ID,  amambybftp/AKIAZT7ZCZPRSCJMX5FU
-        secretAccessKey: "QtvpHUx6oeD1HED8FAtSi1SCg1R9Eim9T1GW71AvTZ0=", //process.env.AWS_SECRET_ACCESS_KEY,  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
-        clientId: "2eufh7jcb2h7t38jdee8iptcva",// process.env.AWS_CLIENT_ID, 69o32prctlipc3o663tl6qd6fd       
+        accessKeyId:"AKIAZT7ZCZPRSCJMX5FU", //process.env.AWS_ACCESS_KEY_ID,  amambybftp/AKIAZT7ZCZPRSCJMX5FU
+        secretAccessKey: "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", //process.env.AWS_SECRET_ACCESS_KEY,  CGK7M0JmxdOq44FvxGQI6fjDHzvh+q2i0YJV8UBg
+        clientId: "269o32prctlipc3o663tl6qd6fd",// process.env.AWS_CLIENT_ID, 69o32prctlipc3o663tl6qd6fd       
     }
 }
 
 
 export const middlewareconfig = {
-    region: "us-east-2", //process.env.AWS_REGION,us-east-1
-    userPoolId: "us-east-2_Ybp2riSOq", //process.env.USER_POOL_ID_DEV,us-east-1_Y2C9cd5d3
+    region: "us-east-1", //process.env.AWS_REGION,us-east-1
+    userPoolId: "us-east-1_Y2C9cd5d3", //process.env.USER_POOL_ID_DEV,us-east-1_Y2C9cd5d3
     tokenUse: ['id', 'access'], 
-    audience: ["2eufh7jcb2h7t38jdee8iptcva"] //[process.env.USER_POOL_APP_CLIENT_ID_DEV] // (optional) the AWS Cognito User Pool App Client ID  69o32prctlipc3o663tl6qd6fd
+    audience: ["69o32prctlipc3o663tl6qd6fd"] //[process.env.USER_POOL_APP_CLIENT_ID_DEV] // (optional) the AWS Cognito User Pool App Client ID  69o32prctlipc3o663tl6qd6fd
 }
 
 //process.env.USER_POOL_ID_DEV;
-export const userPoolId = "us-east-2_Ybp2riSOq"; //process.env.USER_POOL_ID_DEV; 
+export const userPoolId = "us-east-1_Y2C9cd5d3"; //process.env.USER_POOL_ID_DEV; 
 //process.env.USER_POOL_ID_PROD;
 
 
