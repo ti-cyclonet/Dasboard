@@ -1,0 +1,38 @@
+{
+  "name": "base2",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3000",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.299.0",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@types/cryptr": "^4.0.1",
+    "cryptr": "^6.2.0",
+    "next": "13.2.4",
+    "next-auth": "^4.20.1",
+    "primeicons": "^6.0.1",
+    "primereact": "^9.2.2",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-redux": "^8.0.5",
+    "react-secure-storage": "^1.2.0",
+    "rxjs": "^7.8.0",
+    "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.8",
+    "@types/react": "18.0.29",
+    "@types/react-bootstrap": "^0.32.32",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4"
+  }
+}
